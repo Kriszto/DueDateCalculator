@@ -101,11 +101,6 @@ final class Calculator
         }
     }
 
-    private function calculateWorkdayLengthInHours(): int
-    {
-
-    }
-
     private function getWorkingHoursPerDayFromStartAndEndTime(): int
     {
         return (new DateTime(static::WORKING_DAY_END_TIME))->diff(new DateTime(static::WORKING_DAY_START_TIME))->h;
