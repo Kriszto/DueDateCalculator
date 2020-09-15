@@ -22,7 +22,7 @@ $dueDate = $this->calculator->calculateDueDate($submitDate, $turnaroundTime);
 ```
 
 ##### Tests
-Automated PHPUnit tests are included in `/src` directory.  
+Automated PHPUnit tests are included in `/test` directory.  
 Test coverage is 100%.
 
 ##### Environment
